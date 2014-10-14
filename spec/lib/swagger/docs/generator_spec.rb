@@ -278,7 +278,7 @@ describe Swagger::Docs::Generator do
               expect(operations.first["summary"]).to eq "Fetches all User items"
             end
             it "writes method correctly" do
-              expect(operations.first["method"]).to eq "get"
+              expect(operations.first["method"]).to eq "GET"
             end
             it "writes nickname correctly" do
               expect(operations.first["nickname"]).to eq "Api::V1::Sample#index"
